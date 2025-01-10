@@ -21,3 +21,24 @@ Welcome to the **Hangman Game**, a classic word-guessing game built using Python
 
 
 
+## Getting Started 🚀  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/hangman-game.git
+   cd hangman-game
+
+  2.Install Python if not already installed: Download Python
+<br>
+
+  3.Run the game:
+
+- python hangman.py
+
+# Contributions 🤝
+Feel free to fork this repository and submit pull requests to enhance the project.
+
+# Let’s Connect!
+💬 Got suggestions or feedback? Feel free to reach out or open an issue. Let’s make this project even better together!
+
+## Happy coding! 🚀
+
