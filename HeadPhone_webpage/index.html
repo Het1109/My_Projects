@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hetu's Headphone Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .navbar {
+      background-color: #2c3e50;
+      padding: 1rem 0;
+      color: white;
+    }
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+    .nav-container h2 {
+      font-size: 1.8rem;
+      color: #e74c3c;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+    }
+    .nav li {
+      margin: 0 1rem;
+    }
+    .nav a {
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+    .nav a:hover, .nav a.active {
+      color: #e74c3c;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(45deg, #34495e, #2c3e50);
+      color: white;
+      padding: 2rem 5%;
+      text-align: left;
+    }
+    .header h3 {
+      font-size: 2.5rem;
+    }
+    .header p {
+      font-size: 1.2rem;
+    }
+    .header .btn {
+      padding: 0.8rem 1.5rem;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .header .btn:hover {
+      background-color: #c0392b;
+    }
+    .headphone {
+      display: block;
+      width: 150px;
+      position: absolute;
+      top: 10%;
+      right: 5%;
+      opacity: 0.8;
+    }
+    .footer {
+      background-color: #34495e;
+      color: white;
+      padding: 2rem 5%;
+    }
+    .main-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .main-container div {
+      margin-bottom: 1rem;
+    }
+    .main-container h4 {
+      color: #e74c3c;
+    }
+    .headphone2 {
+      display: block;
+      width: 100px;
+      margin: 1rem auto;
+      opacity: 0.7;
+    }
+    hr {
+      border: 0.5px solid #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container container">
+      <a href="#"><h2>Het's Headphone Hub</h2></a>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main head -->
+  <div class="header">
+    <div class="container">
+      <div>
+        <h3>Immerse in Sound, Het's Style!</h3>
+        <p>Discover the perfect harmony of design and technology. Elevate your audio experience and step into a world where sound meets soul.</p>
+        <a href="#" class="btn">Explore Now</a>
+      </div>
+      <img src="Plattan2BT_Image_large_indigo@4x.jpg"  alt="">
+    </div>
+  </div>
+
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="main-container">
+      <div>
+        <h4>Connect With Hetu</h4>
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>LinkedIn</li>
+        <li>WhatsApp</li>
+      </div>
+      <div>
+          <h4>Support</h4>
+          <li>Sign up</li>
+          <li>FAQs</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </div>
+        <div>
+            <h4>Top Picks</h4>
+            <li>Noise Cancelling</li>
+            <li>Wireless Comfort</li>
+            <li>Budget-Friendly</li>
+            <li>Hi-Fi Audio</li>
+        </div>
+    </div>
+    <hr>
+  </footer>
+  
+</body>
+</html>
